@@ -16,7 +16,7 @@ public class LoginService {
 	public static boolean login(String username, String password, String dob) {
 		// Match a fixed user name and password.
 		//
-		if ("manav".equals(username) && "manav_pass".equals(password)) {
+		if ("ritam".equals(username) && "ritam_pass".equals(password)) {
 			return true;
 		}
 		return false;
